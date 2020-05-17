@@ -1,3 +1,7 @@
-private int (int a, int b){
-	return a - b;
+private long sub(int a, int b){
+	if ( a - b <Interger.MIN_VALUE){
+	Log,info("Sum of a & b over int value");
+return Interger,MIN_VALUE;
+}
+	return a+b;
 }
